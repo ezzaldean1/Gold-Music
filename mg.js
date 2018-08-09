@@ -65,7 +65,7 @@ const Sra7a = [
 ]
    client.on('message', message => {
        if (message.author.bot) return;
- if (message.content.startsWith('rصراحه')) {
+ if (message.content.startsWith('صراحه')) {
      if(!message.channel.guild) return message.reply('** This command only for servers **');
   var client= new Discord.RichEmbed()
   .setTitle("لعبة صراحة ..")
@@ -139,7 +139,7 @@ const Za7f = [
  client.on('message', message => {
      
      if (message.author.bot) return;
-   if (message.content.startsWith("rعقاب")) {
+   if (message.content.startsWith("عقاب")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -152,7 +152,7 @@ const Za7f = [
 });
 
 
-  var prefix = "r";
+
 var rebel = ["https://f.top4top.net/p_682it2tg6.png","https://e.top4top.net/p_682a1cus5.png","https://d.top4top.net/p_682pycol4.png","https://c.top4top.net/p_682vqehy3.png","https://b.top4top.net/p_682mlf9d2.png","https://a.top4top.net/p_6827dule1.png","https://b.top4top.net/p_682g1meb10.png","https://a.top4top.net/p_682jgp4v9.png","https://f.top4top.net/p_682d4joq8.png","https://e.top4top.net/p_6828o0e47.png","https://d.top4top.net/p_6824x7sy6.png","https://c.top4top.net/p_682gzo2l5.png","https://b.top4top.net/p_68295qg04.png","https://a.top4top.net/p_682zrz6h3.png","https://f.top4top.net/p_6828vkzc2.png","https://e.top4top.net/p_682i8tb11.png"]
     client.on('message', message => {
         if (message.author.bot) return;
@@ -198,7 +198,7 @@ message.channel.sendEmbed(cat);
 
  client.on('message', message => {
      if (message.author.bot) return;
-   if (message.content.startsWith("rكت تويت")) {
+   if (message.content.startsWith("كت تويت")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -227,7 +227,7 @@ const secreT = [
 
  client.on('message', message => {
      if (message.author.bot) return;
-   if (message.content.startsWith("rخواطر")) {
+   if (message.content.startsWith("خواطر")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -248,7 +248,7 @@ const Love = [  "**احبك / عدد قطرات المـــطر والشجر و
 
  client.on('message', message => {
      if (message.author.bot) return;
-   if (message.content.startsWith("rحب")) {
+   if (message.content.startsWith("حب")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -316,7 +316,7 @@ const zead = [
 ]
  client.on('message', message => {
      if (message.author.bot) return;
- if (message.content.startsWith('rمريم')) {
+ if (message.content.startsWith('مريم')) {
   var mariam= new Discord.RichEmbed()
   .setTitle("لعبة مريم ..")
   .setColor('RANDOM')
@@ -329,7 +329,7 @@ const zead = [
 
 
 client.on('message', function(message) {
-  var prefix = 'r';
+
   if (message.author.bot) return;
     if(message.content.startsWith(prefix + 'قرعه')) {
         let args = message.content.split(" ").slice(1);
@@ -373,7 +373,7 @@ const kingmas = [
    '*** روح اكل ملح + ليمون اذا مافيه اكل اي شيء من اختيار الي معك.  ***'
 ]
  client.on('message', message => {
-   var prefix = 'r';
+
    if (message.author.bot) return;
  if (message.content.startsWith(prefix + 'حكم')) {
   var mariam= new Discord.RichEmbed()
