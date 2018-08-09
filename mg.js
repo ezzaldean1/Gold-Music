@@ -1,6 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
+client.on('ready', () => {
+  console.log('---------------');
+  console.log(' Music Bot Is Online')
+  console.log('---------------')
+  client.user.setStatus("Online")
+    client.user.setActivity(" Type ehelp",{type: 'WATCHING'})
+	
+});
 
 const Sra7a = [
      'صراحه  |  صوتك حلوة؟',
