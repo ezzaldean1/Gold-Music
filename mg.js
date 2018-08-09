@@ -4,7 +4,7 @@ client.on('ready', () => {
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
-    client.user.setGame(` Gold Bot ヅ`, "http://twitch.tv/Streammingg")
+    client.user.setGame(` Beauty Is Skin Deep ヅ`, "http://twitch.tv/Streammingg")
 
 });
 
