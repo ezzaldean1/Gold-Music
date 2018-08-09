@@ -18,10 +18,6 @@ client.on('ready', () => {
     client.user.setActivity(" Type ehelp",{type: 'WATCHING'})
 	
 });
-client.login(discord_token);
-client.on('ready', function() {
-    console.log(`i am ready ${client.user.username}`);
-});
 /*
 ////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\
 ////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\
