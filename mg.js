@@ -10,7 +10,7 @@ client.on('ready', () => {
 
       client.on('message', message => {
                                 if(!message.channel.guild) return;
-                        if (message.content.startsWith(prefix + 'pinggg')) {
+                        if (message.content.startsWith(prefix + 'ezpinggg')) {
                             if(!message.channel.guild) return;
                             var msg = `${Date.now() - message.createdTimestamp}`
                             var api = `${Math.round(client.ping)}`
